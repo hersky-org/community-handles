@@ -49,7 +49,10 @@ export default async function CommunityPage({ params }: Props) {
           </Link>
           .
         </p>
-
+        <p className="max-w-[500px] text-lg text-muted-foreground sm:text-xl">
+          Take a peek at our <a href="https://bsky.app/profile/hersky.social/lists/3ltmcgnxnvd2v">HerSky Community Feed</a> and see what everyone’s sharing — you’re always welcome here!
+        </p>
+  
         <LoadMore
           domain={domain}
           className="mt-8 grid w-full grid-cols-1 gap-4 overflow-hidden sm:grid-cols-2 md:grid-cols-3"
