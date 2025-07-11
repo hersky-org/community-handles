@@ -41,7 +41,7 @@ export default async function CommunityPage({ params }: Props) {
           The {domain} <br className="hidden sm:inline" />
           community
         </h1>
-        <p className="max-w-[500px] text-lg text-muted-foreground sm:text-xl">
+        <p className="max-w-[1000px] text-lg text-muted-foreground sm:text-xl">
           Want to join the {count} members of the {domain} community? Get your
           own{" "}
           <Link href="/" className="underline">
@@ -50,10 +50,10 @@ export default async function CommunityPage({ params }: Props) {
           .
         </p>
         <p className="max-w-[1000px] text-lg text-muted-foreground sm:text-xl">
-          Take a peek at our 
+          Take a peek at our{" "}
           <Link href="https://bsky.app/profile/hersky.social/lists/3ltmcgnxnvd2v" className="underline">
           HerSky Community Feed</Link>
-          and see what everyone’s sharing — you’re always welcome here!
+          {" "}and see what everyone’s sharing!
         </p>
   
         <LoadMore
